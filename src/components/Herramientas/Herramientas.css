@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("../../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.herramientas_container {
+  margin-top: -15em;
+  background-image: url("../../assets/Orange.png");
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100vw;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: column;
+padding-bottom: 11em;
+}
+.herramientas_text {
+  margin-top: 4em;
+  text-align: center;
+}
+.herramientas_title {
+  margin-top: 2em;
+  font-size: 5em;
+  color: white;
+  font-family: "Comfortaa";
+}
+.section_benefits {
+  display: flex;
+  width: 95vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section_benefits > img {
+  width: 30vw;
+}
+.section_text {
+  font-weight: bold;
+  font-size: 4em;
+  color: white;
+  font-family: "Comfortaa";
+}
+.carrito_compra {
+  margin-top: 1em;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto_encima {
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  left: 0px;
+  color: white;
+  font-family: "Comfortaa";
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+  margin-left: 5em;
+}
+.texto_title_carrito {
+  color: #ff950a;
+  font-size: 3em;
+}
+.section_menu {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+}
+
+.carrito_compra > img {
+  width: 70vw;
+}
+
+@media (max-width: 800px) {
+  .herramientas_container {
+    margin-top: -5em;
+  }
+  .herramientas_title {
+    margin-top: 0em;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+  }
+  .herramientas_text > img {
+    width: 13vw;
+  }
+  .carrito_compra > img {
+    width: 95vw;
+  }
+  .texto_encima {
+    margin-bottom: 1em;
+    font-size: 0.35em;
+  }
+  .texto_encima_mobile {
+    color: white;
+    font-family: "Comfortaa";
+    font-size: 0.7em;
+  }
+  .section_benefits_mobile {
+    display: flex;
+    width: 95vw;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .section_benefits_mobile > img {
+    width: 45vw;
+  }
+  .section_menu_mobile {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+  }
+}

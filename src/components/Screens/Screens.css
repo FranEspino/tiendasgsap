@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("../../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("../../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.container_screens {
+  
+  margin-top: -0.8em;
+  padding-bottom: 25em;
+  background: #e67d0c;
+  display: flex;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Comfortaa", sans-serif;
+}
+.title_screens {
+  margin-top: 1em;
+  font-size: 6.5em;
+  font-weight: 600;
+}
+.subtitle_screens {
+  font-size: 3.8em;
+  font-weight: 500;
+  margin-top: -1em;
+}
+.container_cards {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin:auto;
+    flex-direction: row;
+}
+
+.title_card{
+  margin-top: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+.card_icon{
+  width: 8em;
+}
+
+.description_card{
+  width: 85%;
+  font-size: 1.3em;
+  font-weight: normal;
+  margin-top: -0.5em;
+}
+.card_screens {
+ 
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_phone{
+
+}
+@media (max-width: 1111px) {
+  .title_screens {
+    font-size: 4em;
+  }
+  .subtitle_screens {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 800px) {
+  .title_content {
+    max-width: 100%;
+    margin: auto;
+    
+  }
+  .container_screens{
+    padding-bottom: 8em;
+  }
+  .title_screens {
+    margin-top: 2em;
+    font-size: 2.2em;
+    font-weight: 900;
+  }
+  .description_card{
+    font-size: 1em;
+   
+  }
+  .subtitle_screens {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-top: -1em;
+  }
+  .container_cards {
+    margin-top:1em;
+  }
+}

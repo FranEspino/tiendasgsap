@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: local("Comfortaa"),
+      url("../../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Poppins";
+    src: local("Poppins"),
+      url("../../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+.container_pasos{
+    position: relative;
+    background-image: url("https://res.cloudinary.com/frapoteam/image/upload/v1633965088/FondoNegroTextura_ofafps.png");
+    background-repeat: no-repeat, repeat;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    z-index: -2;
+}
+.title_pasos{
+    font-family: "Comfortaa";
+    font-size: 3em;
+    color: white;
+    text-align:center;
+    margin-top:3em;
+}
+.text_2{
+  text-align: right;
+}
+.container_paso1{
+  padding-top: 2em;
+  color:white;
+  justify-content:center;
+  display: flex;
+  align-items: center;
+  margin-left: -2em;
+}
+.container_paso2{
+  padding-top: 2em;
+  color:white;
+  justify-content:center;
+  display: flex;
+  align-items: center;
+  margin-left: -6em;
+}
+.container_paso1>img{
+  width:30vw;
+}
+.number_text
+{
+  color: #ec6a06;
+  font-size: 11em;
+  font-family: "Poppins";
+  padding: 0;
+  margin:0;
+}
+.text_pasos{
+  margin-left: 5em;
+
+}
+.description_text
+{
+  color: #f1c574;
+  padding: 0;
+  margin:0;
+  font-size: 3.3em;
+  font-family: "Comfortaa";
+}
+@media (max-width: 800px) {
+  .container_paso1{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .container_pasos{
+    margin-top: -4em;
+    padding-top: 3em;
+  }
+  .title_pasos
+  {
+    font-size: 0.8em;
+  
+  }
+  .title_pasos>img{
+    width:13vw;
+  
+  }
+  .number_text{
+    font-size: 7em;
+  
+  }
+  .text_pasos{
+    font-size: 0.3em;
+  }
+  .container_paso2{
+    margin-left: -1em;
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container_paso2>img{
+    width:40vw;
+  }
+  .text_2{
+    font-size: 0.3em;
+    text-align:center;
+    margin-left: 1em;
+  }
+  .description_text{
+    font-size: 2.5em;
+  
+  }
+}

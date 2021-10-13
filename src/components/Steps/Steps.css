@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+    url("../../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("../../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+.steps_global {
+  margin-top: -1em;
+  background-image: url("https://res.cloudinary.com/frapoteam/image/upload/v1633965088/FondoNegroTextura_ofafps.png");
+  background-repeat: no-repeat, repeat;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.steps_container {
+  font-family: "Comfortaa", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  margin:auto;
+  padding-left: 5em;
+}
+.step_containerinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.step_containerinfo > img {
+  margin:auto;
+  padding-top: 1em;
+  width: 12em;
+}
+.step_number {
+  color: #ec6a06;
+  font-size: 20em;
+}
+.step_containertext {
+  color: white;
+  margin-left: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vw;
+  align-items: flex-start;
+}
+.step_title {
+  font-size: 5em;
+  padding: 0;
+  margin: 0;
+}
+.step_subtitle {
+  font-size: 5em;
+  color: #e67d0c;
+  padding: 0;
+  margin: 0;
+}
+.step_subtitle2 {
+  font-size: 5em;
+  padding: 0;
+  margin: 0;
+}
+.step_one {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 6em;
+  margin: auto;
+  margin-top: -20em;
+}
+.step_one_image {
+  margin-top: 2em;
+}
+.step_one_image > img {
+  width: 23vw;
+}
+
+.step_number_description {
+  font-family: "Poppins";
+  font-size: 5em;
+  color: #e77d0d;
+  padding: 0;
+  margin: 0;
+}
+.step_title_desciption {
+  font-family: "Comfortaa";
+  font-size: 2.8em;
+  font-weight: bold;
+  padding-bottom: 1em;
+  margin: 0;
+  color: #c89a44;
+}
+.step_resume_desciption {
+  font-family: "Comfortaa";
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+}
+.step_border_desciption {
+  margin-top: 2em;
+  margin-left: -0.8em;
+}
+.step_three{
+  margin-top: 1em;
+}
+.step_three_image>img{
+  margin-top: -5em;
+}
+
+.step_two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 78vw;
+  margin: auto;
+  text-align: right;
+  margin-bottom: 7em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 5em;
+  margin-top: -6em;
+
+}
+
+.step_two_image>img{
+  width: 30vw;
+}
+.cerdito{
+  margin-top: -10em;
+
+}
+  
+.step5{
+  margin-bottom: 20em;
+}
+@media (max-width: 800px) {
+  .step_number {
+    font-size: 6em;
+  }
+  .step_title {
+    font-size: 1.3em;
+  }
+  .step_subtitle {
+    font-size: 1.3em;
+  }
+  .step_subtitle2 {
+    font-size: 1.3em;
+  }
+  .step_containertext {
+    margin-left: 1.5em;
+  }
+  .step_containerinfo > img {
+    width: 5em;
+    margin-top: 1em;
+  }
+  
+.step5{
+  margin-bottom: 5em;
+}
+  .step_one {
+    padding-top: 1em;
+
+    flex-direction: column-reverse;
+    margin:auto;
+    text-align: center;
+  }
+
+  .step_number_description {
+    font-size: 3em;
+    text-align: center;
+  }
+  .step_title_desciption {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .step_resume_desciption {
+    font-size: 0.8em;
+    text-align: center;
+
+  }
+  .step_border_desciption > img {
+    width: 3em;
+    margin-left: 0.5em;
+  }
+  .step_one_image > img {
+    width: 60vw;
+    margin-left: -1em;
+  }
+  .step_divider{
+    text-align: center;
+  }
+  .step_divider>img{
+    width:4em;
+    
+  }
+  .step_three_image>img{
+
+    width: 60vw;
+    margin-left: 2em;
+  }
+  .step_two{
+    flex-direction: column;
+    text-align: center;
+    margin:auto;
+    padding-left: 0em;
+    padding-top: 4em;
+  }
+  .step_border>img{
+    width:4em;
+  }
+  .step_two_image>img{
+    width: 60vw;
+    margin-left: 0em;
+  }
+  .cerdito{
+  padding-left: 3em;
+  margin-top: -6em;
+  
+  }
+  .steps_container {
+    padding-left: 0;
+  }
+}
